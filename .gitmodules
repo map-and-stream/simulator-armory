@@ -1,0 +1,6 @@
+[submodule "src/third-party/protocol-armory"]
+	path = src/third-party/protocol-armory
+	url = https://github.com/map-and-stream/protocol-armory.git
+[submodule "src/third-party/network-armory"]
+	path = src/third-party/network-armory
+	url = https://github.com/map-and-stream/network-armory.git
