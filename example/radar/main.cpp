@@ -1,11 +1,3 @@
-// #include "factory.h"
-// #include "iostream"
-// using namespace std;
-// int main() {
-//     std::cout<<"hello";
-//     cout<<"hello";
-//     return 0;
-// }
 #include "../../src/third-party/simulator/radar/radar_simulator.h"
 #include <thread>
 #include <csignal>
