@@ -15,11 +15,14 @@ target_include_directories(radar_server PRIVATE
     ${CMAKE_SOURCE_DIR}/src
     ${CMAKE_SOURCE_DIR}/src/third-party
 )
+
 target_include_directories(lrad_server PRIVATE
     ${CMAKE_SOURCE_DIR}/src
     ${CMAKE_SOURCE_DIR}/src/third-party
 )
+
 target_include_directories(server PRIVATE
     ${CMAKE_SOURCE_DIR}/src
+    ${CMAKE_SOURCE_DIR}/src/radar
     ${CMAKE_SOURCE_DIR}/src/third-party
 )
