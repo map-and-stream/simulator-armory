@@ -1,19 +1,28 @@
 cmake_minimum_required(VERSION 3.10)
-project(simulator_armory_example)
+project(simulator_armory)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(radar_server radar/radar_server.cpp)
-add_executable(lrad_server lrad/lrad_server.cpp)
-add_executable(server server/server.cpp)
+# -----------------------------------
+# Example app: radar
+# -----------------------------------
+add_executable(radar
+    radar/main.cpp
+)
 
-target_link_libraries(radar_server PRIVATE ${LIB_ALIAS})
-target_link_libraries(lrad_server PRIVATE ${LIB_ALIAS})
-target_link_libraries(server PRIVATE ${LIB_ALIAS})
-
-target_include_directories(radar_server PRIVATE
+target_include_directories(radar PRIVATE
     ${CMAKE_SOURCE_DIR}/src
     ${CMAKE_SOURCE_DIR}/src/third-party
+    ${CMAKE_SOURCE_DIR}/third-party/simulator/radar
+)
+
+target_link_libraries(radar PRIVATE ${LIB_ALIAS})
+
+# -----------------------------------
+# Example app: lrad_server
+# -----------------------------------
+add_executable(lrad_server
+    lrad/lrad_server.cpp
 )
 
 target_include_directories(lrad_server PRIVATE
@@ -21,8 +30,5 @@ target_include_directories(lrad_server PRIVATE
     ${CMAKE_SOURCE_DIR}/src/third-party
 )
 
-target_include_directories(server PRIVATE
-    ${CMAKE_SOURCE_DIR}/src
-    ${CMAKE_SOURCE_DIR}/src/radar
-    ${CMAKE_SOURCE_DIR}/src/third-party
-)
+target_link_libraries(lrad_server PRIVATE ${LIB_ALIAS})
+
