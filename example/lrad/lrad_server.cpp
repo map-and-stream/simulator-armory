@@ -1,5 +1,6 @@
 #include <netinet/in.h>
 #include <unistd.h>
+
 #include <iostream>
 #include <thread>
 #include <vector>
@@ -27,18 +28,12 @@ void handleClient(int clientSock) {
 
         // Extract packet type (example: 7th byte)
         int packetType = (data.size() > 6) ? data[6] : -1;
-        std::cout << "[SERVER] Packet received. Type = " << packetType
-                  << "  Size = " << data.size() << "\n";
+        std::cout << "[SERVER] Packet received. Type = " << packetType << "  Size = " << data.size() << "\n";
 
         // Respond with a dummy frame (example 10 bytes)
-        std::vector<uint8_t> response = {
-            0x01, 0x02, 0x03, 0x04,
-            0x05, 0x06, 0x07, 0x08,
-            0x09, 0x0A
-        };
+        std::vector<uint8_t> response = {0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0A};
         write(clientSock, response.data(), response.size());
-        std::cout << "[SERVER] Sent response packet of size "
-                  << response.size() << "\n";
+        std::cout << "[SERVER] Sent response packet of size " << response.size() << "\n";
     }
 
     close(clientSock);

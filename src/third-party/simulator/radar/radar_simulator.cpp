@@ -2,10 +2,11 @@
 
 #include <arpa/inet.h>
 #include <unistd.h>
-#include <iostream>
-#include <thread>
+
 #include <algorithm>
 #include <chrono>
+#include <iostream>
+#include <thread>
 
 // -------------------------------
 // PORTS
@@ -79,7 +80,8 @@ void connectionHandler(int clientSock) {
 
     {
         std::lock_guard<std::mutex> lock(g_radarMutex);
-        g_radarClients.erase(std::remove(g_radarClients.begin(), g_radarClients.end(), clientSock), g_radarClients.end());
+        g_radarClients.erase(std::remove(g_radarClients.begin(), g_radarClients.end(), clientSock),
+                             g_radarClients.end());
     }
 
     close(clientSock);
@@ -169,8 +171,7 @@ void radarBroadcasterLoop(int interval_ms) {
 
         auto frame = buildFrame(101, payload);
 
-        std::cout << "[RADAR] Broadcasting CAT101: track " << msg.tracknumber
-                  << ", payload size = " << payload.size()
+        std::cout << "[RADAR] Broadcasting CAT101: track " << msg.tracknumber << ", payload size = " << payload.size()
                   << ", frame size = " << frame.size() << "\n";
 
         broadcastToRadarClients(frame);
@@ -178,7 +179,6 @@ void radarBroadcasterLoop(int interval_ms) {
         std::this_thread::sleep_for(std::chrono::milliseconds(interval_ms));
     }
 }
-
 
 // -------------------------------
 // Signal handler

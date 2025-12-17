@@ -1,9 +1,9 @@
 // radar_simulator.h  (you just posted)
 #pragma once
 
-#include <vector>
-#include <mutex>
 #include <cstdint>
+#include <mutex>
+#include <vector>
 
 #include "../../protocol-armory/src/radar/radar.h"
 #include "../../protocol-armory/src/radar/struct.h"

@@ -1,6 +1,8 @@
-#include "../../src/third-party/simulator/radar/radar_simulator.h"
-#include <thread>
 #include <csignal>
+#include <thread>
+
+#include "../../src/third-party/simulator/radar/radar_simulator.h"
+
 
 int main() {
     std::signal(SIGINT, handleSignal);
