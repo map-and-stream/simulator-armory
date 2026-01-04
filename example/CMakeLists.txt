@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD 20)
 # -----------------------------------
 add_executable(radar
     radar/main.cpp
+    
 )
 
 target_include_directories(radar PRIVATE
@@ -21,14 +22,16 @@ target_link_libraries(radar PRIVATE ${LIB_ALIAS})
 # -----------------------------------
 # Example app: lrad_server
 # -----------------------------------
-add_executable(lrad_server
-    lrad/lrad_server.cpp
+add_executable(lrad
+    lrad/main.cpp
+
 )
 
-target_include_directories(lrad_server PRIVATE
+target_include_directories(lrad PRIVATE
     ${CMAKE_SOURCE_DIR}/src
     ${CMAKE_SOURCE_DIR}/src/third-party
+    ${CMAKE_SOURCE_DIR}/third-party/simulator/lrad
 )
 
-target_link_libraries(lrad_server PRIVATE ${LIB_ALIAS})
+target_link_libraries(lrad PRIVATE ${LIB_ALIAS})
 
