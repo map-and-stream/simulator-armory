@@ -1,6 +1,8 @@
 #include "lrad_simulator.h"
+
 #include <netinet/in.h>
 #include <unistd.h>
+
 #include <iostream>
 #include <thread>
 #include <vector>
@@ -28,8 +30,7 @@ void handleClient(int clientSock) {
         // Process all complete frames inside buffer
         while (buffer.size() >= 7) {
             // Check magic
-            if (!(buffer[0] == 0x6E && buffer[1] == 0x6E &&
-                  buffer[2] == 0x6E && buffer[3] == 0x89)) {
+            if (!(buffer[0] == 0x6E && buffer[1] == 0x6E && buffer[2] == 0x6E && buffer[3] == 0x89)) {
                 buffer.erase(buffer.begin());
                 continue;
             }
@@ -45,23 +46,16 @@ void handleClient(int clientSock) {
 
             // Print HEX
             std::cout << "[HEX] ";
-            for (auto b : frame)
-                std::cout << std::hex << std::uppercase << (int)b << " ";
+            for (auto b : frame) std::cout << std::hex << std::uppercase << (int)b << " ";
             std::cout << std::dec << "\n";
 
             int packetType = frame[6];
-            std::cout << "[SERVER] Packet received. Type = "
-                      << packetType << "  Size = " << frame.size() << "\n";
+            std::cout << "[SERVER] Packet received. Type = " << packetType << "  Size = " << frame.size() << "\n";
 
             // Dummy response
-            std::vector<uint8_t> response = {
-                0x01,0x02,0x03,0x04,
-                0x05,0x06,0x07,0x08,
-                0x09,0x0A
-            };
+            std::vector<uint8_t> response = {0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0A};
             write(clientSock, response.data(), response.size());
-            std::cout << "[SERVER] Sent response packet of size "
-                      << response.size() << "\n";
+            std::cout << "[SERVER] Sent response packet of size " << response.size() << "\n";
         }
     }
 
