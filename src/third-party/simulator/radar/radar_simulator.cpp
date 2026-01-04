@@ -157,24 +157,52 @@ CAT101 generateTestCAT101() {
     return cat;
 }
 
+CAT102 generateTestCAT102() {
+    static int arcid = 1;
+    CAT102 cat{};
+    cat.radarid = 1;
+    cat.azimuth = (arcid * 5) % 3600;
+    cat.elevation = 10;
+    cat.resolution = 2048;
+    cat.arcdatalength = 32;
+    cat.arcdata = std::string(cat.arcdatalength, '\xAA'); // dummy data of length 32
+    arcid++;
+    return cat;
+}
+
+
 // -------------------------------
 // Broadcaster loop
 // -------------------------------
+
 void radarBroadcasterLoop(int interval_ms) {
     Radar radar;
 
     while (g_running) {
-        CAT101 msg = generateTestCAT101();
 
-        std::vector<uint8_t> payload;
-        radar.encode(msg, payload);
+        // -------------------------
+        // CAT101 (existing)
+        // -------------------------
+        CAT101 msg101 = generateTestCAT101();
+        std::vector<uint8_t> payload101;
+        radar.encode(msg101, payload101);
+        auto frame101 = buildFrame(101, payload101);
+        broadcastToRadarClients(frame101);
 
-        auto frame = buildFrame(101, payload);
+        // -------------------------
+        // CAT102 (NEW)
+        // -------------------------
+        CAT102 msg102 = generateTestCAT102();
+        std::vector<uint8_t> payload102;
+        radar.encode(msg102, payload102);
+        auto frame102 = buildFrame(102, payload102);
 
-        std::cout << "[RADAR] Broadcasting CAT101: track " << msg.tracknumber << ", payload size = " << payload.size()
-                  << ", frame size = " << frame.size() << "\n";
+        std::cout << "[RADAR] Broadcasting CAT102: arc len = "
+                  << msg102.arcdatalength
+                  << ", payload size = " << payload102.size()
+                  << ", frame size = " << frame102.size() << "\n";
 
-        broadcastToRadarClients(frame);
+        broadcastToRadarClients(frame102);
 
         std::this_thread::sleep_for(std::chrono::milliseconds(interval_ms));
     }
