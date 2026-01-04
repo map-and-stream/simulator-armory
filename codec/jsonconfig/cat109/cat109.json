@@ -1,0 +1,36 @@
+{
+    "itemCollection": [
+        {
+            "name": "radarid",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "radarid",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "tracknumber",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "tracknumber",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+}

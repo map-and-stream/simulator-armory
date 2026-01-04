@@ -1,0 +1,47 @@
+{
+    "uap": [
+        "SOH96",
+        "SOH",
+        "BodySize",
+        "Fixed",
+        "MessageNo",
+        "Fixed2",
+        "HeaderCRC",
+        "FX"
+        "radarnumber",
+        "type",
+        "quality",
+        "tracknumber",
+        "x",
+        "y",
+        "height",
+        "FX"
+        "speed",
+        "heading",
+        "time",
+        "iffmode",
+        "iffcode",
+        "RE",
+        "SP",
+        "FX"
+    ],
+    "mandatory": [
+        "SOH96",
+        "SOH",
+        "BodySize",
+        "Fixed",
+        "MessageNo",
+        "Fixed2",
+        "HeaderCRC",
+        "radarnumber",
+        "type",
+        "quality",
+        "tracknumber",
+        "x",
+        "y",
+        "height",
+        "speed",
+        "heading",
+        "time"
+    ]
+}

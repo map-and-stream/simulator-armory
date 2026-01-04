@@ -1,0 +1,36 @@
+{
+    "itemCollection": [
+        {
+            "name": "radarid",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "radarid",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "tx",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "tx",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+}

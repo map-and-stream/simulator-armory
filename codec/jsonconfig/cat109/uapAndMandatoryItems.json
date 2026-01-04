@@ -1,0 +1,16 @@
+{
+    "uap": [
+        "radarid",
+        "tracknumber",
+        "-",
+        "-",
+        "-",
+        "RE",
+        "SP",
+        "FX"
+    ],
+    "mandatory": [
+        "radarid",
+        "tracknumber"
+    ]
+}

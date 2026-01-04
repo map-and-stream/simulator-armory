@@ -1,0 +1,28 @@
+{
+    "uap": [
+        "radarid",
+        "sectorleft",
+        "sectorright",
+        "rpm",
+        "mode",
+        "enable-disable",
+        "-",
+        "FX",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "RE",
+        "SP",
+        "FX"
+    ],
+    "mandatory": [
+        "radarid",
+        "sectorleft",
+        "sectorright",
+        "rpm",
+        "mode",
+        "enable-disable"
+    ]
+}

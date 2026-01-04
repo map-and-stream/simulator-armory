@@ -1,0 +1,29 @@
+{
+    "itemCollection": [
+    ],
+    "0": {
+        "name": "test_id",
+        "type": "FixedLength",
+        "lengthInByte": 1,
+        "elements": [
+            [
+                "id_1",
+                "4",
+                "toDecimal",
+                "IntegerValue",
+                "",
+                ""
+            ],
+            [
+                "id_2",
+                "4",
+                "toDecimal",
+                "IntegerValue",
+                "",
+                ""
+            ]
+        ]
+    },
+    "compoundSubitemCollection": [
+    ]
+},

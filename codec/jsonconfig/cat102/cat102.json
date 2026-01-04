@@ -1,0 +1,89 @@
+{
+    "itemCollection": [
+        {
+            "name": "radarid",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "radarid",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "azimuth",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "azimuth",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "elevation",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "elevation",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "resolution",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "resolution",
+                    "32",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "arcdata",
+            "type": "VariableLength",
+            "lengthInByte": 3,
+            "elements": [
+            	[
+		  "arcdatalength",
+		  "16",
+		  "toDecimal",
+		  "IntegerValue",
+		  "",
+		  ""
+		],
+                [
+                    "arcdata",
+                    "8",
+                    "toASCII",
+                    "StringValue",
+                    "",
+                    "1"
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+}

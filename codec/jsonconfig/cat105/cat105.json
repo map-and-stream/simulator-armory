@@ -1,0 +1,51 @@
+{
+    "itemCollection": [
+        {
+            "name": "radarid",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "radarid",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "parameter",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "parameter",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "led",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "led",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+}

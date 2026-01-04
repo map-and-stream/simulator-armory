@@ -1,0 +1,156 @@
+{
+    "itemCollection": [
+        {
+            "name": "radarid",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "radarid",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "latitude",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "latitude",
+                    "32",
+                    "toDecimal",
+                    "FloatValue",
+                    "",
+                    "0.000001"
+                ]
+            ]
+        },
+        {
+            "name": "longitude",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "longitude",
+                    "32",
+                    "toDecimal",
+                    "FloatValue",
+                    "",
+                    "0.000001"
+                ]
+            ]
+        },
+        {
+            "name": "altitude",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "altitude",
+                    "32",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "status",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "status",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "temperature",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "temperature",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "sectorleft",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "sectorleft",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "sectorright",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "sectorright",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "rpm",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "rpm",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "maxrange",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "maxrange",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+}

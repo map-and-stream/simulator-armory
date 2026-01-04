@@ -1,0 +1,251 @@
+{
+    "itemCollection": [
+        {
+            "name": "I002_100",
+            "type": "FixedLength",
+            "lengthInByte": 8,
+            "elements": [
+                [
+                    "RHO-START",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "0.0078125"
+                ],
+                [
+                    "RHO-END",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "0.0078125"
+                ],
+                [
+                    "THETA-START",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "0.0055"
+                ],
+                [
+                    "THETA-END",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "0.0055"
+                ]
+            ]
+        },
+        {
+            "name": "I002_090",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "RANGE_ERROR",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "0.0078125"
+                ],
+                [
+                    "AZIMUTH_ERROR",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "0.022"
+                ]
+            ]
+        },
+        {
+            "name": "I002_080",
+            "type": "ExtendedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "W/E",
+                    "7",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "FX",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "I002_070",
+            "type": "RepetitiveLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "A",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "IDENT",
+                    "5",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "COUNTER",
+                    "10",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "I002_060",
+            "type": "ExtendedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "Station_Processing_Mode",
+                    "7",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "FX",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "I002_050",
+            "type": "ExtendedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "Station_Configuration_Status",
+                    "7",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "FX",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "I002_041",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "Antenna_Rotation_Speed",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "0.0078125"
+                ]
+            ]
+        },
+        {
+            "name": "I002_030",
+            "type": "FixedLength",
+            "lengthInByte": 3,
+            "elements": [
+                [
+                    "Time_Of_day",
+                    "24",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "0.0078125"
+                ]
+            ]
+        },
+        {
+            "name": "I002_020",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "Sector_number",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1.41"
+                ]
+            ]
+        },
+        {
+            "name": "I002_010",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "SAC",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "SIC",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "I002_000",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "Message_Type",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+}

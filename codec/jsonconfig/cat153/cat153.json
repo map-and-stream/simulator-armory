@@ -1,0 +1,36 @@
+{
+    "itemCollection": [
+        {
+            "name": "lrad_id",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "lrad_id",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "timestamp_sender",
+            "type": "FixedLength",
+            "lengthInByte": 3,
+            "elements": [
+                [
+                    "timestamp_sender",
+                    "24",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+}

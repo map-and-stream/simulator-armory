@@ -1,0 +1,30 @@
+{
+    "uap": [
+        "lrad_id",
+        "status",
+        "range",
+        "azimuth",
+        "elevation",
+        "voice",
+        "light",
+        "FX",
+        "duration",
+        "-",
+        "-",
+        "-",
+        "-",
+        "RE",
+        "SP",
+        "FX"
+    ],
+    "mandatory": [
+        "lrad_id",
+        "status",
+        "range",
+        "azimuth",
+        "elevation",
+        "voice",
+        "light",
+        "duration"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "uap": [
+        "radarid",
+        "azimuth",
+        "elevation",
+        "resolution",
+        "arcdata",
+        "-",
+        "-",
+        "FX",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "RE",
+        "SP",
+        "FX"
+    ],
+    "mandatory": [
+        "radarid",
+        "azimuth",
+        "elevation",
+        "resolution"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "uap": [
+        "radarid",
+        "parameter",
+        "led",
+        "-",
+        "-",
+        "RE",
+        "SP",
+        "FX"
+    ],
+    "mandatory": [
+        "radarid",
+        "parameter",
+        "led"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "uap": [
+        "rng_current",
+        "azm_current",
+        "elv_current",
+        "spd_current",
+        "crs_current",
+        "rng_predicting",
+        "azm_predicting",
+        "FX",
+        "elv_predicting",
+        "SNR",
+        "heightSecondary",
+        "nMiss",
+        "nConf",
+        "tState",
+        "FX",
+        "ID",
+        "ID",
+        "tType",
+        "Spec",
+        "Mode",
+        "Code",
+        "FX",
+        "X",
+        "Y",
+        "Z",
+        "height",
+        "Vx",
+        "Vy",
+        "FX",
+        "Vz"
+    ],
+    "kandatory": [
+        "ID"
+    ]
+},

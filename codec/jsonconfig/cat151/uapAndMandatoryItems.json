@@ -1,0 +1,17 @@
+{
+    "uap": [
+        "lrad_id",
+        "timestamp_sender",
+        "result",
+        "-",
+        "-",
+        "RE",
+        "SP",
+        "FX"
+    ],
+    "mandatory": [
+        "lrad_id",
+        "timestamp_sender",
+        "result"
+    ]
+}
