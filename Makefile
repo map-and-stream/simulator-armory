@@ -12,7 +12,7 @@ build:
 	@echo "Starting build process... $(shell nproc) cores"
 	cmake -B $(BUILD_DIR) -S . -DSIMULATOR_ARMORY_BUILD_TESTS=ON -DSIMULATOR_ARMORY_BUILD_EXAMPLE=ON
 	cmake --build $(BUILD_DIR) -j$(shell nproc)
-	cp $(BUILD_DIR)/example/simulator_armory_example $(OUTPUT_DIR)
+	cp $(BUILD_DIR)/example/radar $(OUTPUT_DIR)
 
 build-clang:
 	@echo "Starting Clang build process... $(shell nproc) cores"
