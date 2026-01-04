@@ -1,0 +1,13 @@
+{
+    "uap": [
+    ],
+    "mandatory": [
+    ],
+    "0": {
+        "name": "id",
+        "type": "FixedLength",
+        "lengthInByte": 2,
+        "elements": [
+        ]
+    }
+},

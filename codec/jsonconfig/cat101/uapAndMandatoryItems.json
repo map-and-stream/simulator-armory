@@ -1,0 +1,38 @@
+{
+    "uap": [
+        "radarid",
+        "tracknumber",
+        "range",
+        "azimuth",
+        "elevation",
+        "latitude",
+        "longitude",
+        "FX",
+        "altitude",
+        "speed",
+        "heading",
+        "rcs",
+        "type",
+        "real-simulation",
+        "-",
+        "FX",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "RE",
+        "SP",
+        "FX"
+    ],
+    "mandatory": [
+        "radarid",
+        "tracknumber",
+        "range",
+        "azimuth",
+        "latitude",
+        "longitude",
+        "altitude",
+        "speed"
+    ]
+}

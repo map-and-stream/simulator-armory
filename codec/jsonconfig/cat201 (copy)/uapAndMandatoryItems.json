@@ -1,0 +1,26 @@
+{
+    "uap": [
+        "iffcode",
+        "iffmode",
+        "time",
+        "heading",
+        "speed",
+        "height",
+        "y",
+        "FX",
+        "x",
+        "tracknumber",
+        "quality",
+        "type",
+        "radarnumber",
+        "RE",
+        "SP",
+        "FX"
+    ],
+    "mandatory": [
+        "tracknumber",
+        "quality",
+        "type",
+        "radarnumber"
+    ]
+}

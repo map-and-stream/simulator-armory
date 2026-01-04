@@ -1,0 +1,66 @@
+{
+    "itemCollection": [
+        {
+            "name": "radarid",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "radarid",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "x",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "x",
+                    "32",
+                    "toDecimal",
+                    "SignedInteger32bitValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "y",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "y",
+                    "32",
+                    "toDecimal",
+                    "SignedInteger32bitValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "z",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "z",
+                    "32",
+                    "toDecimal",
+                    "SignedInteger32bitValue",
+                    "",
+                    ""
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+}

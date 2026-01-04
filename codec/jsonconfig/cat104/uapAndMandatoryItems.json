@@ -1,0 +1,31 @@
+{
+    "uap": [
+        "radarid",
+        "latitude",
+        "longitude",
+        "altitude",
+        "status",
+        "temperature",
+        "sectorleft",
+        "FX",
+        "sectorright",
+        "rpm",
+        "maxrange",
+        "-",
+        "-",
+        "RE",
+        "SP",
+        "FX"
+    ],
+    "mandatory": [
+        "radarid",
+        "latitude",
+        "longitude",
+        "altitude",
+        "status",
+        "sectorleft",
+        "sectorright",
+        "rpm",
+        "maxrange"
+    ]
+}

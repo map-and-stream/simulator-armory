@@ -1,0 +1,381 @@
+{
+    "itemCollection": [
+        {
+            "name": "rng_current",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "rng_current",
+                    "32",
+                    "toDecimal",
+                    "UnsignedInteger32bitValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "azm_current",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "azm_current",
+                    "16",
+                    "toDecimal",
+                    "FloatValue",
+                    "0~359.99",
+                    "0.01"
+                ]
+            ]
+        },
+        {
+            "name": "elv_current",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "elv_current",
+                    "16",
+                    "toDecimal",
+                    "FloatValue",
+                    "0~359.99",
+                    "0.01"
+                ]
+            ]
+        },
+        {
+            "name": "spd_current",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "spd_current",
+                    "16",
+                    "toDecimal",
+                    "UnsignedInteger16bitValue",
+                    "0~6553.5",
+                    "0.1"
+                ]
+            ]
+        },
+        {
+            "name": "crs_current",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "crs_current",
+                    "16",
+                    "toDecimal",
+                    "UnsignedInteger16bitValue",
+                    "0~359.9",
+                    "0.1"
+                ]
+            ]
+        },
+        {
+            "name": "rng_predicting",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "rng_predicting",
+                    "32",
+                    "toDecimal",
+                    "UnsignedInteger32bitValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "azm_predicting",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "azm_predicting",
+                    "16",
+                    "toDecimal",
+                    "FloatValue",
+                    "0~359.99",
+                    "100"
+                ]
+            ]
+        },
+        {
+            "name": "elv_predicting",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "elv_predicting",
+                    "16",
+                    "toDecimal",
+                    "FloatValue",
+                    "0~359.99",
+                    "0.01"
+                ]
+            ]
+        },
+        {
+            "name": "SNR",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "SNR",
+                    "32",
+                    "toDecimal",
+                    "UnsignedInteger32bitValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "heightSecondary",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "heightSecondary",
+                    "32",
+                    "toDecimal",
+                    "UnsignedInteger32bitValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "nMiss",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "nMiss",
+                    "8",
+                    "toDecimal",
+                    "UnsignedInteger8bitValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "nConf",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "nConf",
+                    "16",
+                    "toDecimal",
+                    "UnsignedInteger16bitValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "tState",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "tState",
+                    "8",
+                    "toDecimal",
+                    "UnsignedInteger8bitValue",
+                    "0~5",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "ID",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "ID",
+                    "16",
+                    "toDecimal",
+                    "UnsignedInteger16bitValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "tType",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "tType",
+                    "8",
+                    "toDecimal",
+                    "UnsignedInteger8bitValue",
+                    "10~30",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "Spec",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "Spec",
+                    "8",
+                    "toDecimal",
+                    "UnsignedInteger8bitValue",
+                    "1~7",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "Mode",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "Mode",
+                    "8",
+                    "toDecimal",
+                    "UnsignedInteger8bitValue",
+                    "1~7",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "Code",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "Code",
+                    "16",
+                    "toDecimal",
+                    "UnsignedInteger16bitValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "X",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "X",
+                    "32",
+                    "toDecimal",
+                    "SignedInteger32bitValue",
+                    "-65536~65536",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "Y",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "Y",
+                    "32",
+                    "toDecimal",
+                    "SignedInteger32bitValue",
+                    "-65536~65536",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "Z",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "Z",
+                    "32",
+                    "toDecimal",
+                    "SignedInteger32bitValue",
+                    "-65536~65536",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "height",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "height",
+                    "32",
+                    "toDecimal",
+                    "UnsignedInteger32bitValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "Vx",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "Vx",
+                    "16",
+                    "toDecimal",
+                    "UnsignedInteger16bitValue",
+                    "",
+                    "0.1"
+                ]
+            ]
+        },
+        {
+            "name": "Vy",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "Vy",
+                    "16",
+                    "toDecimal",
+                    "UnsignedInteger16bitValue",
+                    "",
+                    "0.1"
+                ]
+            ]
+        },
+        {
+            "name": "Vz",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "Vz",
+                    "16",
+                    "toDecimal",
+                    "UnsignedInteger16bitValue",
+                    "",
+                    "0.1"
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+}

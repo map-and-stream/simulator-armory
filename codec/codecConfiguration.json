@@ -1,0 +1,324 @@
+{
+    "categories": [
+        {
+            "categoryNumber": 21,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat021/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat021/cat021.json",
+            "refDescriptionFile": "codec/jsonconfig/cat021/cat021_Ed23Ed24/cat021_ref_Ed13.json",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 62,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat062_Ed117/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat062_Ed117/cat062.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "codec/jsonconfig/cat062_Ed117/cat062_spf.json",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 63,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat063_Ed14/uapAndMandatoryItems.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "itemsDescriptionFile": "codec/jsonconfig/cat063_Ed14/cat063.json",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 65,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat065_Ed14/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat065_Ed14/cat065.json",
+            "refDescriptionFile": "codec/jsonconfig/cat065_Ed14/cat065_ref.json",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 166,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat166/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat166/cat166.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 1,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat001/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat001/cat001.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 2,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat002/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat002/cat002.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 3,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat001-3/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat001-3/cat003.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 110,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat110/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat110/cat110.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 201,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat201/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat201/cat201.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 48,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat048/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat048/cat048.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 101,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat101/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat101/cat101.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+{
+            "categoryNumber": 102,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat102/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat102/cat102.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 103,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat103/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat103/cat103.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 104,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat104/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat104/cat104.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 105,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat105/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat105/cat105.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 106,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat106/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat106/cat106.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 107,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat107/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat107/cat107.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 108,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat108/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat108/cat108.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 109,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat109/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat109/cat109.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 111,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat111/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat111/cat111.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 112,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat112/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat112/cat112.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 113,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat113/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat113/cat113.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 114,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat114/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat114/cat114.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 150,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat150/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat150/cat150.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 151,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat151/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat151/cat151.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 152,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat152/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat152/cat152.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 153,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat153/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat153/cat153.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        },
+        {
+            "categoryNumber": 154,
+            "uapAndMandatoryItemsFile": "codec/jsonconfig/cat154/uapAndMandatoryItems.json",
+            "itemsDescriptionFile": "codec/jsonconfig/cat154/cat154.json",
+            "refDescriptionFile": "",
+            "spfDescriptionFile": "",
+            "filterFile": "",
+            "dataSourcesInDec": [
+            ],
+            "default": true
+        }
+    ],
+    "categoriesFilterFile": ""
+}

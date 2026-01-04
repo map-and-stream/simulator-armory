@@ -1,0 +1,115 @@
+{
+    "itemCollection": [
+        {
+            "name": "I048_010",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "SAC",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "SIC",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "I048_110",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "SPARE16",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "SPARE",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "D-Height",
+                    "14",
+                    "CA2toDecimal",
+                    "IntegerValue",
+                    "",
+                    "25"
+                ]
+            ]
+        },
+        {
+            "name": "I048_020",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "TYP",
+                    "3",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "SIM",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "RDP",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "SPI",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "RAB",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "FX",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+}

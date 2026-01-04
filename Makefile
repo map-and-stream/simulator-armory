@@ -13,6 +13,8 @@ build:
 	cmake -B $(BUILD_DIR) -S . -DSIMULATOR_ARMORY_BUILD_TESTS=ON -DSIMULATOR_ARMORY_BUILD_EXAMPLE=ON
 	cmake --build $(BUILD_DIR) -j$(shell nproc)
 	cp $(BUILD_DIR)/example/radar $(OUTPUT_DIR)
+	cp $(BUILD_DIR)/example/lrad $(OUTPUT_DIR)
+
 
 build-clang:
 	@echo "Starting Clang build process... $(shell nproc) cores"

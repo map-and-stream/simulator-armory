@@ -1,0 +1,330 @@
+{
+    "itemCollection": [
+        {
+            "name": "SOH96",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "96",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "96",
+                    ""
+                ],
+                [
+                    "96",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "96",
+                    ""
+                ],
+                [
+                    "96",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "96",
+                    ""
+                ],
+                [
+                    "96",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "96",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "SOH",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "SOH",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "[144,144]",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "BodySize",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "BodySize",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "Fixed",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "Fixed",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "[0,0]",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "MessageNo",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "MessageNo",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "Fixed2",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "Fixed2",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "[0,0]",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "HeaderCRC",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "HeaderCRC",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "name": "radarnumber",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "radarnumber",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "type",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "type",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "quality",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "quality",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "tracknumber",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "tracknumber",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "x",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "x",
+                    "32",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "y",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "y",
+                    "32",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "height",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "height",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "speed",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "speed",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "heading",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "heading",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "time",
+            "type": "FixedLength",
+            "lengthInByte": 4,
+            "elements": [
+                [
+                    "time",
+                    "32",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "iffmode",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "iffmode",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "iffcode",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "iffcode",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "CRC",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "CRC",
+                    "16",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    ""
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+},

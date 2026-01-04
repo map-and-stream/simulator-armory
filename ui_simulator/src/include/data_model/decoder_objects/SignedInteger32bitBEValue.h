@@ -1,0 +1,53 @@
+#ifndef DATA_MODEL_DECODER_OBJECTS_SignedInteger32bitBEValue_HPP_
+#define DATA_MODEL_DECODER_OBJECTS_SignedInteger32bitBEValue_HPP_
+
+#include <cstdint>
+#include <string>
+#include <iostream>
+#include <sstream>
+
+#include "data_model/decoder_objects/ElementValue.hpp"
+#include <nlohmann/json.hpp>
+
+using json = nlohmann::json;
+
+/**
+ * Store decoded data of an element.
+ * The type of value is a int32_t - 4 Bytes.
+ * This class is used when the decoded value is a integer.
+ */
+
+class SignedInteger32bitBEValue : public ElementValue {
+public:
+    SignedInteger32bitBEValue(DecodedValueObjectPoolManager *_ptrToManager)
+            : ElementValue(_ptrToManager) {
+        decodedValue = 0;
+        representationMode = RepresentationModeEnum::Signed32bitIntegerBEValue;
+    }
+
+    SignedInteger32bitBEValue(DecodedValueObjectPoolManager *_ptrToManager, int32_t _decodedValue,
+                            RepresentationModeEnum _representationMode)
+            : ElementValue(_ptrToManager) {
+        decodedValue = _decodedValue;
+        representationMode = _representationMode;
+    }
+
+    virtual ~SignedInteger32bitBEValue() = default;
+
+    int32_t getDecodedValue() const;
+
+    void setDecodedValue(int32_t _decodedValue,
+                         RepresentationModeEnum _representationMode = RepresentationModeEnum::Signed32bitIntegerBEValue);
+
+    void resetElementValue() override;
+
+    string getDecodedDataInString() const override;
+
+    string *getPointerToDecodedDataInString() override;
+
+private:
+    int32_t decodedValue;
+    RepresentationModeEnum representationMode;
+};
+
+#endif /* DATA_MODEL_DECODER_OBJECTS_SignedInteger32bitBEValue_HPP_ */

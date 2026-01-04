@@ -1,0 +1,52 @@
+{
+    "itemCollection": [
+        {
+            "name": "I001_210",
+            "type": "FixedLength",
+            "lengthInByte": 1,
+            "elements": [
+                [
+                    "MBTest_id",
+                    "7",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "MBTest_active",
+                    "1",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        },
+        {
+            "name": "I001_010",
+            "type": "FixedLength",
+            "lengthInByte": 2,
+            "elements": [
+                [
+                    "SAC",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ],
+                [
+                    "SIC",
+                    "8",
+                    "toDecimal",
+                    "IntegerValue",
+                    "",
+                    "1"
+                ]
+            ]
+        }
+    ],
+    "compoundSubitemCollection": [
+    ]
+}

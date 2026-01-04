@@ -1,0 +1,36 @@
+{
+    "uap": [
+        "BodySize",
+        "Fixed",
+        "MessageNo",
+        "Fixed2",
+        "HeaderCRC",
+        "CRC",
+        "FX",
+        "FX",
+        "FX",
+        "FX",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "FX",
+        "RE",
+        "FX",
+        "SP",
+        "FX",
+        "-",
+        "-",
+        "-",
+        "FX",
+        "-",
+        "SOH1",
+        "-",
+        "-",
+        "-"
+    ],
+    "mandatory": [
+        "SOH1"
+    ]
+},

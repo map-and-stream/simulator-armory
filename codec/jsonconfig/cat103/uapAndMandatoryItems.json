@@ -1,0 +1,17 @@
+{
+    "uap": [
+        "radarid",
+        "clusterx",
+        "clustery",
+        "clusterz",
+        "-",
+        "RE",
+        "SP",
+        "FX"
+    ],
+    "mandatory": [
+        "radarid",
+        "clusterx",
+        "clustery"
+    ]
+}
