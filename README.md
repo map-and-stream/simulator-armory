@@ -17,3 +17,5 @@ sudo lsof -i :2000
 sudo lsof -t -i :2000 | xargs sudo kill -9
 
 https://github.com/user-attachments/assets/8b6d6afb-d9cc-4f75-ba36-c5c096c64d65
+
+<img width="1920" height="1080" alt="Screenshot From 2026-01-05 15-12-54" src="https://github.com/user-attachments/assets/864e8a16-6a0d-47f2-9e52-d4d9f2ca5449" />
