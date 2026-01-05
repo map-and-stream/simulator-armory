@@ -153,8 +153,7 @@ void RadarWidget::paintEvent(QPaintEvent*) {
     // ====================== ARC BLIPS ======================
     if (!arcSamples.isEmpty()) {
         p.setPen(Qt::NoPen);
-        p.setBrush(QColor(0, 255, 0));
-
+        p.setBrush(QColor(255, 255, 0)); // Yellow
         float angleRad = qDegreesToRadians(sweepAzimuthDeg);
         float cosA = qCos(angleRad);
         float sinA = qSin(angleRad);
